@@ -86,3 +86,23 @@ const holaMundo = ['Hola', 'Mundo'];
 const loGuardoTodo = ['hola', 'que', 23, 42.33, 'tal'];
 //18
 const arrayDeArrays =  [[756, 'nombre'], [225, 'apellido'], [298, 'direccion']];
+
+// Funciones
+//19
+function multiplicacion(a, b) {
+    return a * b;
+}
+//20
+function division(a, b) {
+    return a / b;
+}
+//21
+function esPar(num) {
+    return num % 2 === 0;
+}
+//22
+const resta = (a, b) => {
+    return a - b;
+}
+const arrayFunciones = [suma, resta, multiplicacion]
+ 
